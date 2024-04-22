@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login{
+    height: 450px;
+    width: 340px;
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+
+}
+img{
+    height: 630px;
+    width: 450px;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+h1{
+    color: black;
+    font-family: 'Brush Script MT';
+    font-size: 60px;
+    margin: 30px;
+    font-weight: 450;
+}
+form{
+    margin: 10px;
+}
+input{
+    height: 20px;
+    width: 240px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin: 0.3em;
+    padding: 10px;
+    font-size: 12px;
+}
+#login{
+    height: 30px;
+    width:263px ;
+    border-radius: 10px;
+    background-color: rgb(59, 168, 241);
+    color: white;
+    font-weight: 400;
+    border: none;
+}
+button{
+    height: 34px;
+    width: 263px;
+    margin: 5px;
+    font-size: 11px;
+    font-weight: 550;
+    border-radius: 10px;
+    
+    border: none;
+}
+#google{
+    padding-right: 15px ;
+}
+span{
+    font-size: 13px;
+    margin: 10px;
+    font-weight: 350;
+    
+}
+.createAcc span{
+    display: flex;
+    border: 1px solid lightgray;
+    margin: 12px;
+    height: 55px;
+    width: 353px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 350;
+}
+link{
+    color: blue;
+}
+#fblogo{
+    color: blue;
+    margin-right: 25px;
+    font-size: 18px;
+}
+#googlelogo{
+
+    color: rgb(245, 74, 12);
+    margin-right: 25px;
+    font-size: 18px;
+
+}
+#orr{
+}
+#or{
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 50px;
+}
+link{
+    color: blue;
+}
+
